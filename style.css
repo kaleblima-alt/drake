@@ -1,0 +1,51 @@
+body { 
+  margin:0;
+  padding:0;
+  }
+nav{
+ background-color:black;
+ height:50px;
+ display:flex;
+ justify-content:space-between;
+/* background:linear-gradient(skyblue,white)no-repeat;*/
+
+/*background-image: url("https://media.newyorker.com/photos/66d0e1a0dbfcd564cf6b198b/master/w_1920,c_limit/Brickner-Wood-Drake.jpg");*/
+}
+nav a{
+  color:orange;
+  text-decoration:none;
+  margin:auto;
+}
+nav a:hover{
+  color:pink;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.galeria{
+  width:200px;
+}
+  
+  
+  
+
